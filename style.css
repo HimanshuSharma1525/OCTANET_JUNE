@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body {
+    
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+   
+}
+header{
+    position: sticky;
+    top: 0px;
+    background: white;
+    height: 66px;
+    box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
+}
+.rightBox{
+    display: flex;
+    margin: 12px;
+    
+}
+
+@media(max-width: 1365px){
+    header{
+     
+        height: 122px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        
+        flex-direction: column;
+        
+    }
+    .rightBox{
+        display: flex;
+        margin: 12px;
+    }
+}
+
+
+.left img{
+    width: 65px;
+    height: 60px;
+}
+.container{
+    
+    padding: 0vw 0vw;
+    
+}
+.flex:hover{
+    cursor: pointer;
+}
+.pwb{
+    width: 35px;
+    height: 30px;
+    
+}
+nav{
+    font-size: 11.7px;
+    padding-left: 50px;
+    padding-right: 50px
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+.section1{
+    background:white;
+    
+    }
+
+.search{
+    width: 24vw;
+    padding: 10px 17px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 3px;
+    
+}
+.homeImg{
+    width: 98.792vw;
+    margin: 0px 0;
+}
+.itemImg{
+    width: 9.88vw;
+    margin: 0px 0px;
+}
+.itemImg2{
+    width: 10.97vw;
+    margin: 0px 0px;
+}
+.itemImg3{
+    width: 16.4vw;
+    margin: 0px 0px;
+}
+.itemImg4{
+    width: 16.4vw;
+    margin: 0px 0px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgba(0 0 0 / 24%) 0px 3px 8px;
+    height: 70vh;
+}
+.footmar{
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+.footbg{
+    background-color: rgba(255, 255, 255, 0.849);
+    
+
+}
+.profile{
+    font-size: 11px;
+    text-align: center;
+}
+ .wishlist{
+    font-size: 11px;
+    padding-right: 15px;
+    text-align: center;
+}
+ .bag{
+    font-size: 11px;
+    text-align: center;
+}
+.gstore{
+    width: 10vw;
+}
+.astore{
+    width: 9vw;
+}
+.ftyiicon{
+    padding: 3px;
+
+}
+.ftyiicon i{
+    font-size: 16px;
+    color: #413f3f;
+    
+    display: block;
+    transition: all 0.3s ease;
+}
+.ftyiicon i:hover{
+   color: #df1010;
+
+}
+.original{
+    width: 20vw;
+padding-left: 20px;
+}
